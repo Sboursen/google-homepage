@@ -1,0 +1,132 @@
+a,
+div,
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+a {
+    margin: 2px 2px;
+}
+
+.gray-font {
+    color: #5f6368;
+}
+
+.fixed-bottom {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #f2f2f2;
+
+    border-top: #f2f2f2;
+    border-bottom: #f2f2f2;
+    border-style: inset;
+    border-width: 1px;
+}
+
+header {
+    position: relative;
+    min-width: max-content;
+    min-height: max-content;
+}
+
+nav {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    width: 240px;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#google-apps {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(3, 5px);
+    grid-template-rows: repeat(3, 5px);
+}
+
+.gray-box {
+    background-color: #727272;
+}
+
+#footer {
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+#footer-country {
+    padding: 5px 10px;
+    margin-left: 20px;
+    font-size: 11px;
+}
+
+.sign-in-button {
+    background-color: #4285f4;
+    font-weight: bold;
+    color: white;
+    border-radius: 5%;
+    border: none;
+    padding: 5px 10px;
+}
+
+main {
+    position: relative;
+    top: 100px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 272px;
+    max-width: 272px;
+    height: auto;
+}
+
+p {
+    text-align: center;
+}
+
+#search-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.search-bar {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#search-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.search-button {
+    background-color: #f2f2f2;
+    color: #65696e;
+    border-radius: 5%;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+hr {
+    margin: 0px;
+}
