@@ -2,11 +2,11 @@ a,
 div,
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 a {
-    margin: 2px 2px;
+    margin: 2px 5px;
 }
 
 .gray-font {
@@ -59,7 +59,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 #footer-country {
@@ -75,6 +75,10 @@ nav {
     border-radius: 5%;
     border: none;
     padding: 5px 10px;
+}
+
+.sign-in-button:hover {
+    background-color: #508ff5;
 }
 
 main {
@@ -122,9 +126,16 @@ p {
     color: #65696e;
     border-radius: 5%;
     border: none;
-    padding: 5px 10px;
+    padding: 10px 15px;
     margin-left: 5px;
     margin-right: 5px;
+    font-size: 11px;
+}
+
+.search-button:hover {
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
 }
 
 hr {
